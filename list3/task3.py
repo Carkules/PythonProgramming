@@ -12,4 +12,3 @@ def merge_pdfs(pdfs, result_name):
         merger.append(pdf)
     merger.write(result_name)
     merger.close()
-merge_pdfs(['test1.pdf', 'test2.pdf', 'test3.pdf'], 'test.pdf')
