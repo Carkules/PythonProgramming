@@ -31,8 +31,3 @@ def add_watermark(input_path, output_path, watermark_text):
     img_with_watermark = Image.alpha_composite(img.convert("RGBA"), img_watermark)
     
     img_with_watermark.convert("RGB").save(output_path)
-
-input_img = r"C:\Users\konra\277442\programowanie\PythonProgramming\list2\gigachad.jpg"
-output_img = "watermarkchad.jpg"
-
-add_watermark(input_img, output_img, 'szef inc')
